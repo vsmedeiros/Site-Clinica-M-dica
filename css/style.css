@@ -1,0 +1,123 @@
+/* Características gerais da página */
+* {
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Topo */
+.topo{
+    background-color: rgb(0,202,209);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.link-topo a{ 
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+.link-topo a:hover {
+    color: #004b4c;
+}
+/* Fim do topo */
+
+.corpo .apresentacao{
+    background-image: url(/assets/recepcao.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+}
+.apresentacao h1{
+    color: white;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 10px;
+    font-size: 60px;
+}
+.box-conteudo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(141,136,132);
+}
+#sobre{
+    padding: 40px 20px 0;
+}
+.box-sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(141,136,132);
+}
+.lista-sobre h2{
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.container-especialidade{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+.box-especialidade{
+    border-radius: 3px;
+    box-shadow: 0px 1px 10px rgb(0 0 0 / 50%);
+    margin: 20px;
+    width: calc(100% / 3 - 40px);
+    border-radius: 3px;
+}
+.box-especialidade figcaption{
+    text-transform: uppercase;
+    text-align: center;
+    padding: 20px;
+    color: rgb(141,136,132);
+}
+.box-especialidade img{
+    width: 100%;
+}
+.link-horarios{
+    background-color: rgb(0,204,209);
+    width: 150px;
+    height: 50px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link-horarios a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.link-horarios a:hover{
+    color: #004b4c;
+}
+iframe{
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.rodape{
+    background-color: rgb(12,110,113);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.rodape img{
+    margin: 0 auto;
+}
+.box-rodape p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
