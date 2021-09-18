@@ -206,3 +206,61 @@ iframe{
         height: 500px;
     }
 }
+
+
+
+/*Página especialidades/////////////////////////////////////////////*/
+.navegacao{
+    margin: 1%;
+    text-align: center;
+}
+.navegacao a{
+    margin: 0 0.5% 0;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: solid 4px;
+    border-bottom-color: rgb(0,162,168);
+}
+.navegacao a:hover{
+    color: rgb(0,162,168);
+}
+#conheca{
+    margin: 2%;
+    color: rgb(141,136,132);
+    text-align: center;
+}
+.boxtabela{
+    margin: auto;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+.boxdescricao{
+    margin: auto;
+    width: 30%;
+}
+.boxtabela img{
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+}
+.boxtabela table{
+    width: 50%;
+    text-align: left;
+    border-collapse: collapse;
+    ;
+}
+.boxtabela table tr {
+    background-color: #f1f1f1;
+}
+.boxtabela table tr:nth-of-type(2n+1){
+    background-color:#cdcdcd;
+}
+.boxtabela table tr:first-of-type{
+    background-color: rgb(0,202,209);
+    color: white;
+}
+td, th{
+    padding-left: 10px;
+}
