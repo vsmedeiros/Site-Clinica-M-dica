@@ -269,7 +269,7 @@ td, th{
     padding: 10px;
 }
 
-/*Media Queries - Responsividade do site especialdiades*/
+/*Media Queries - Responsividade da página especialidades*/
 @media (max-width: 768px){
     .boxtabela img{
         display: none;
@@ -292,6 +292,7 @@ td, th{
         width: 90%;
     }
 }
+/*Mobile*/
 @media (max-width: 425px){
     .box-conteudo{
         margin: 0;
