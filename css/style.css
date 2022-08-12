@@ -29,7 +29,7 @@ body{
 /* Fim do topo */
 /* Corpo do site */
 .corpo .apresentacao{
-    background-image: url(/assets/recepcao.png);
+    background-image: url(../assets/recepcao.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -198,13 +198,13 @@ iframe{
     }
 }
 /*Desktop*/
-@media (min-width: 767 px) and (max-width: 1024px){
+@media (min-width: 767px) and (max-width: 1024px){
     .corpo .apresentacao{
         height: 400px;
     }
 }
 /*Desktop acima*/
-@media (min-width: 1025 px){
+@media (min-width: 1025px){
     .corpo .apresentacao{
         height: 500px;
     }
